@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>While Loop Factorial Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>While Loop Factorial Example</h1>
+
+    <script>
+        // Calculate the factorial of 5 using a while loop
+        let number = 5;
+        let factorial = 1;
+
+        document.write(`<p>Calculating the factorial of ${number}:</p>`);
+        document.write("<p>");
+
+        while (number > 0) {
+            factorial *= number;
+            document.write(`${number}! = ${factorial}<br>`);
+            number--;
+        }
+
+        document.write("</p>");
+    </script>
+</body>
+</html>
